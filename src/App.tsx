@@ -246,7 +246,7 @@ export default function App() {
           </div>
 
           <p className="text-[10px] font-mono text-neutral-600 mt-12 tracking-widest uppercase">
-            Designed with absolute love &bull; Web Synthesis
+            Designed with absolute love by DEV AGNIHOTRI
           </p>
         </div>
       )}
