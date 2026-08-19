@@ -237,7 +237,7 @@ export const VideoCanvas = forwardRef<VideoCanvasRef, VideoCanvasProps>(
       if (config.matrixChars === 'binary') {
         chars = ['0', '1'];
       } else if (config.matrixChars === 'romantic') {
-        chars = ['♥', '💕', 'L', 'O', 'V', 'E', 'S', 'A', 'Y', 'A', 'N', 'G'];
+        chars = ['♥', '💕', 'L', 'O', 'V', 'E', 'D', 'E', 'V'];
       } else if (config.matrixChars === 'code') {
         chars = ['{', '}', ';', '=>', 'const', 'love', '[]', '<>'];
       } else {
@@ -841,7 +841,7 @@ export const VideoCanvas = forwardRef<VideoCanvasRef, VideoCanvasProps>(
         
         // Spawn a word occasionally
         if (activeWords.length < 5 && Math.random() < 0.008) {
-          const vocabulary = ['LOVE', 'তুমি', 'ভালোবাসা', 'FOREVER', 'ALWAYS', 'HEART', 'SONA', 'হৃদয়', 'SMILE', 'JANU', 'BELOVED', 'পরান', 'SWEETHEART', 'MINE'];
+          const vocabulary = ['LOVE', 'You', 'FOREVER', 'ALWAYS', 'HEART', 'SONA', 'SMILE', 'JANU', 'BELOVED', 'SWEETHEART', 'RANI', 'MINE'];
           const word = vocabulary[Math.floor(Math.random() * vocabulary.length)].toUpperCase();
           activeWords.push({
             text: word,
