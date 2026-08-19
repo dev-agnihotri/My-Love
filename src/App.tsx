@@ -115,7 +115,7 @@ export default function App() {
   };
 
   // Change default sequence using preset message buttons
-  const applyMessagePreset = (presetType: 'bengali' | 'anniversary' | 'classic' | 'retro') => {
+  const applyMessagePreset = (presetType: 'english' | 'anniversary' | 'classic' | 'retro') => {
     let slides = [...DEFAULT_CONFIG.slides];
     let heartText = 'I Love ❤️ You';
     let heartSubText = 'Always & Forever';
@@ -125,13 +125,13 @@ export default function App() {
         { id: 'b_1', text: '3', duration: 1.2 },
         { id: 'b_2', text: '2', duration: 1.2 },
         { id: 'b_3', text: '1', duration: 1.2 },
-        { id: 'b_4', text: 'তুমি', duration: 1.8 },
-        { id: 'b_5', text: 'আমার', duration: 1.8 },
-        { id: 'b_6', text: 'সবটুকু', duration: 1.8 },
-        { id: 'b_7', text: 'ভালোবাসা', duration: 2.4 },
+        { id: 'b_4', text: 'You', duration: 1.8 },
+        { id: 'b_5', text: 'My', duration: 1.8 },
+        { id: 'b_6', text: 'All of It', duration: 1.8 },
+        { id: 'b_7', text: 'Love', duration: 2.4 },
       ];
-      heartText = 'আমি তোমাকে ভালোবাসি';
-      heartSubText = 'চিরদিনের জন্য তোমার';
+      heartText = 'I Love You';
+      heartSubText = 'চYours Forever';
     } else if (presetType === 'anniversary') {
       slides = [
         { id: 'a_1', text: '3', duration: 1.2 },
