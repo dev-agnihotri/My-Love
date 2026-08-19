@@ -131,7 +131,7 @@ export default function App() {
         { id: 'b_7', text: 'Love', duration: 2.4 },
       ];
       heartText = 'I Love You';
-      heartSubText = 'চYours Forever';
+      heartSubText = 'Yours Forever';
     } else if (presetType === 'anniversary') {
       slides = [
         { id: 'a_1', text: '3', duration: 1.2 },
